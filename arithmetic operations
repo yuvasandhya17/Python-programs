@@ -1,0 +1,9 @@
+num1=10
+num2=20
+print(num1+num2)#addithion of numbers
+print(num2-num1)#subtraction num2 from num1
+print(num1*num2)#multiplication num1 with num2
+print(num1/num2)#divide num1 by num2
+print(num1%num2)#modules of num1 and num2
+print(num1**num2)#exponent of num1 and num2
+print(num1//num2)#floor division of num1 and num2
