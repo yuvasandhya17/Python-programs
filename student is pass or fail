@@ -1,0 +1,11 @@
+sno=int(input("enter his hall ticket last 3 dig:"))
+sname=input("enter student name:")
+grp=input("enter the group name:")
+s1=int(input("enter ds marks:"))
+s2=int(input("enter cs marks:"))
+s3=int(input("enter stat marks:"))
+
+if(s1 and s2 and s3)>=35:
+    print("pass")
+else:
+    print("fail")
