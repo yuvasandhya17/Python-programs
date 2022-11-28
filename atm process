@@ -1,0 +1,5 @@
+p=int(input("enter the amount balance:"))
+a=int(input("enter the amount you want to draw:"))
+print("the credit amount is",a)
+M=p+a
+print("the main balance is",M)
