@@ -1,0 +1,7 @@
+## WRITE A PROGRAM TO CHECK THE PIN NUMBER IS VALID OR NOT
+pin=int(input('enter a pin code'))
+if pin==34567:
+    print("pin is correct continue your transections")
+else:
+    print("pin is invalid try again")
+
