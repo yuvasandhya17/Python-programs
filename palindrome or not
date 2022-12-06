@@ -1,0 +1,11 @@
+n=int(input("enter a number"))
+dum=n
+rev=0
+while(n>0):
+    x=n%10
+    rev=(rev*10)+x
+    n=n//10
+if dum==rev:
+    print("it is a PALINDROME")
+else:
+    print("it is not a PALINDROME")
