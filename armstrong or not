@@ -1,0 +1,11 @@
+n=int(input("enter a number:"))
+sum=0
+temp=n
+while(n>0):
+    x=n%10
+    sum+=x*x*x
+    n=n//10
+if sum==temp:
+    print("it is an armstrong number")
+else:
+    print("it is not a armstrong number")
