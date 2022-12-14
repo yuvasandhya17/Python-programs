@@ -1,0 +1,12 @@
+nlist=[]
+n=int(input("enter total no  of elements"))
+for i in range(1,n+1):
+    val=int(input("enter the element"))
+    nlist.append(val)
+print(nlist)
+#print(len(nlist))
+myset=set(nlist)
+if (len(nlist)!=len(myset)):
+    print("yes thee r dups")
+else:
+    print("No,not!")
