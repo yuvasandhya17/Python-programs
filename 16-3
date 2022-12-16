@@ -1,0 +1,8 @@
+v=input("enter a string:")
+n=len(v)
+
+for i in range(0,n):
+    if v[i] .isdigit()==1:
+        print(v[i],"is a digit ")
+        m=v[i].isdigit()
+print("there are ", n,"digits in string")
