@@ -1,0 +1,6 @@
+v=input("enter a string:")
+n=len(v)
+for i in range(0,n):
+    if v[i] .isalpha()==1:
+        print(v[i],"is an alphabet")
+print("there are ",n,"alphabets in string")
