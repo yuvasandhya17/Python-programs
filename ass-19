@@ -1,0 +1,8 @@
+#If square root is greater than 10,print 'Hello' otherwise
+ #print 'Hi'
+n=int(input())
+result=n**0.5
+if result>10:
+    print("Hello")
+else:
+    print("Hi")
