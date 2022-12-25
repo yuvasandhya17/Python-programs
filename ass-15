@@ -1,0 +1,11 @@
+n=int(input())
+l=list(map(int,input().split()))
+for i in l:
+    if l.count(i)==1:
+        print(i)
+#Assignment-16:
+#Write a program to print difference between maximum and minimum
+ #number from the given list.
+n=int(input())
+l=list(map(int,input().split()))
+print(max(l)-min(l))
