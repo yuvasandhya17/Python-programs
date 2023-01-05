@@ -1,0 +1,20 @@
+n=int(input())
+m=[]
+sum=0
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input())
+        l.append(x)
+    m.append(l)
+for i in range(0,n):
+    for j in range(0,n):
+        if i==j:
+            a=m[i][j]
+            print(a)
+for i in range(0,n):
+    for j in range(0,n):
+        if i+j==n-1:
+            b=m[i][j]
+            print(b)
+print(max(a,b))
