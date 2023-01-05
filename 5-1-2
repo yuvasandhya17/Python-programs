@@ -1,0 +1,5 @@
+list=[2,49,61,8,23,45,49,55]
+for i in list:
+    if(i%2==0):
+        list.remove(i)
+print(list)
