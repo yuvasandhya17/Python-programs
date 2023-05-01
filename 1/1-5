@@ -1,0 +1,6 @@
+student={1:[1,'priya','mpc','adckkd',7865942088],2:[2,'ramesh','mec','adcrjy',5895379041]}
+sno=int(input('enter number'))
+print('player name:',student.get(sno)[1])
+print('group:',student.get(sno)[2])
+print('college:',student.get(sno)[3])
+print('phone number:',student.get(sno)[4])
